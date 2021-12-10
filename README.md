@@ -1,5 +1,6 @@
 # notes on fork
 -- needed some tweaks to work on metro s2
+-- code.py is the file needed
 
 # PMS5003 Particulate Sensor
 
