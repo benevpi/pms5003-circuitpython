@@ -1,3 +1,6 @@
+# notes on fork
+-- needed some tweaks to work on metro s2
+
 # PMS5003 Particulate Sensor
 
 [![Build Status](https://travis-ci.com/pimoroni/pms5003-python.svg?branch=master)](https://travis-ci.com/pimoroni/pms5003-python)
