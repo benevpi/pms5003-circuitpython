@@ -30,8 +30,6 @@ import board
 import busio
 from digitalio import DigitalInOut, Direction
 
-import pimoroni_physical_feather_pins
-
 __version__ = '0.0.6'
 
 
@@ -186,8 +184,8 @@ class PMS5003():
 
     def __init__(self,
                  serial=None,
-                 pin_reset=pimoroni_physical_feather_pins.pin23(),
-                 pin_enable=pimoroni_physical_feather_pins.pin22(),
+                 pin_reset=None,
+                 pin_enable=None,
                  mode='active',
                  retries=5,
                  baudrate=9600
